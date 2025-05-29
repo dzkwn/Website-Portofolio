@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebsiteKu</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <!-- fetaher icon -->
+  <script src="https://unpkg.com/feather-icons"></script>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Website<span>Ku</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Profile</a>
+        <a href="#about">About Me</a>
+        <a href="#kontak">Contact</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="pmenu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- hero section -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Muhamad Dzakwan Hidayat</h1>
+        <h1><span>PNJ x CCIT</span></h1>
+        <p>
+          Mahasiswa Teknik Informatika, Jurusan Teknik Multimedia dan Jaringan
+        </p>
+      </main>
+    </section>
+    <!-- about section -->
+    <section id="about" class="about">
+      <h2><span>About</span> Me</h2>
+
+        <div class="row">
+          <div class="embeded">
+            <div class="about-img">
+            <img
+              src="img/myphoto.jpg"
+              alt="Tentang Kamu"
+            />
+          </div>
+          <div class="content">
+            <h3>Halo semuanya!</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, <br>
+              assumenda quo distinctio temporibus nam optio! <br>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quo <br>
+              officiis? Libero molestias, ad asperiores dolore quaerat quis odit
+              exercitationem?
+            </p>
+          </div>  
+          </div>
+
+        </div>
+      </section>
+      <!-- contact section -->
+      <section id="kontak" class="kontak">
+        <h2 style="margin-bottom: 3.0rem;"><span>My</span> Contact</h2>
+          <div class="row">
+            <div class="contact-info" style="flex: 1;">
+              <h3>Informasi Kontak</h3>
+              <p>Email: <a href="#">bububu@email.com</a></p>
+              <p>No. HP / WhatsApp: <a href="#">+62 812-3456-7890</a></p>
+              <p>Alamat: Jl. Tendean No.156, Jakarta</p>
+              <p>Instagram: <a href="#">@bububu_</a></p>
+          </div>
+
+        <form action="#" method="post" style="flex: 1;">
+          <h3>Kirim Pesan</h3>
+          <div style="margin-bottom: 1rem;">
+            <label for="name">Nama</label><br />
+              <input type="text" id="name" name="name" placeholder="Nama Anda" required style="width: 100%; padding: 0.8rem;" />
+          </div>
+
+          <div style="margin-bottom: 1rem;">
+            <label for="email">Email</label><br />
+              <input type="email" id="email" name="email" placeholder="Email Anda" required style="width: 100%; padding: 0.8rem;" />
+          </div>
+
+          <div style="margin-bottom: 1rem;">
+            <label for="message">Pesan</label><br />
+              <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda..." required style="width: 100%; padding: 0.8rem;"></textarea>
+          </div>
+          <button type="submit" style="padding: 0.8rem 1.5rem; background-color: var(--primary); border: none; color: white; cursor: pointer;">
+            Kirim
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- footer section -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Profile</a>
+        <a href="#about">About Me</a>
+        <a href="#kontak">Contact</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">dzkrshss</a>. | &copy; 2025.</p>
+      </div>
+    </footer>
+    <!-- feather icon -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- my js -->
+    <script src="script.js"></script>
+  </body>
+</html>
